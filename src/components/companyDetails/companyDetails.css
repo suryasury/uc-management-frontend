@@ -1,0 +1,60 @@
+.company-details-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #24263a;
+  color: #fff;
+}
+
+.detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #343647; */
+}
+
+.detail-header h1 {
+  font-size: 2.2rem;
+  line-height: 50px;
+  opacity: 0.8;
+  color: #fff;
+}
+.detail-header p {
+  font-size: 1.1rem;
+  line-height: 50px;
+  opacity: 0.8;
+}
+
+.add-user-button button {
+  width: 120px;
+  height: 40px;
+  background-color: #ff4a57;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.no-users {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  text-align: center;
+}
+
+.no-users .logo {
+  color: #fff;
+  opacity: 0.7;
+  height: 80px;
+  width: 80px;
+}
+
+.user-cards {
+  margin-top: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}

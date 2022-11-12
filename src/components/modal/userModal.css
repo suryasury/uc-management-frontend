@@ -1,0 +1,26 @@
+.user-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-shadow: 24;
+  border-radius: 5px;
+  /* padding: 20px; */
+}
+
+.user-modal form .form-fields {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.user-modal form input {
+  min-width: 300px;
+}

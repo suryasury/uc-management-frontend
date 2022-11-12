@@ -1,0 +1,25 @@
+.migrate-user-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-shadow: 24;
+  border-radius: 5px;
+  /* padding: 20px; */
+}
+
+.migrate-user-modal .header h3 {
+  font-size: 1.2rem;
+  color: #ff4a57;
+}
+
+.migrate-user-modal .header h3 {
+  font-size: 1.2rem;
+}
+
+.migrate-user-modal form {
+  padding: 20px;
+}

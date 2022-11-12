@@ -1,0 +1,153 @@
+.dashboard-container {
+  width: 100%;
+  background-color: #24263a;
+  min-height: 100vh;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.header h4 {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 2rem;
+}
+
+.header button {
+  width: 120px;
+  height: 40px;
+  background-color: #ff4a57;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.no-company {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  text-align: center;
+}
+.no-company p {
+  color: #fff;
+  opacity: 0.7;
+}
+.no-company .logo {
+  color: #fff;
+  opacity: 0.7;
+  height: 80px;
+  width: 80px;
+}
+
+.company-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-shadow: 24;
+  border-radius: 5px;
+  /* padding: 20px; */
+}
+
+.company-modal form .company-form-fields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20;
+}
+
+.company-modal form .company-form-fields .child {
+  margin: 20px 0;
+}
+
+.pac-container {
+  z-index: 10000 !important;
+}
+
+.add-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 20px 20px -20px;
+}
+
+.add-button button {
+  width: 120px;
+  height: 40px;
+  background-color: #ff4a57;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table-container {
+  width: 100%;
+}
+
+.table-container .table {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.map-container {
+  margin: 20px;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  background-color: grey;
+}
+
+.switch-tabs {
+  width: 20%;
+  height: 50px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #ff4a57;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+
+.switch-tabs div {
+  padding: 10px;
+  color: #fff;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.switch-tabs .tabs,
+.selected {
+  padding: 10px;
+  color: rgb(17, 16, 16);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#over {
+  background: #000000;
+  position: absolute;
+  z-index: 0;
+  width: 20%;
+  height: 370px;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  color: #ffffff;
+  float: left;
+  top: 15px;
+  margin-left: 16px;
+}

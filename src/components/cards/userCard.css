@@ -1,0 +1,28 @@
+.user-card-container {
+  min-width: 30%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.user-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-card-header h2 {
+  font-size: 1.2rem;
+}
+
+.user-card-content {
+  display: flex;
+}
+
+.user-card-content div {
+  color: black;
+}
+
+.user-card-content div h4,
+p {
+  padding: 5px 5px;
+}
